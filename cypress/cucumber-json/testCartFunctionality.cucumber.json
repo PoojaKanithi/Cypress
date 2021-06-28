@@ -1,0 +1,83 @@
+[
+  {
+    "description": "I want to shop on Tools QA Shopping Website",
+    "keyword": "Feature",
+    "name": "Shopping on Tools QA",
+    "line": 1,
+    "id": "shopping-on-tools-qa",
+    "tags": [],
+    "uri": "testCartFunctionality.feature",
+    "elements": [
+      {
+        "id": "shopping-on-tools-qa;verifying-cart-functionality",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "verifying cart functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to shopping Website",
+            "result": {
+              "status": "passed",
+              "duration": 9632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I login with my credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I remove products from cart",
+            "result": {
+              "status": "passed",
+              "duration": 6893000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I do the search for shirt",
+            "result": {
+              "status": "passed",
+              "duration": 1327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I add products and do verification on the Cart Page",
+            "result": {
+              "status": "passed",
+              "duration": 7354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I do logout successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2998000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

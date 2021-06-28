@@ -1,0 +1,18 @@
+{
+  "projectId": "4ex3kr",
+  "baseUrl": "http://shop.demoqa.com/my-account/",
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 15000,
+  "env": {
+    "username": "Cypress",
+    "password": "Cypress@gmail.com"
+  },
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  },
+  "video": true,
+  "testFiles": "**/*.feature"
+}
